@@ -16,6 +16,13 @@ public class Application {
 		//Tell them what they entered
 		System.out.println("You entered: " + line);
 		
+		
+		System.out.println("Enter an integer: ");
+		
+		int value = input.nextInt();
+		
+		System.out.println("You entered: " + value);
+		
 	}
 
 }
