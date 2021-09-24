@@ -15,6 +15,20 @@ public class App {
 		for(String fruit: fruits) {
 			System.out.println(fruit);
 		}
+		
+		int value = 0;
+		
+		String text = null;
+		
+		System.out.println(text);
+		
+		String[] texts = new String[2];
+		
+		System.out.println(texts[0]);
+		
+		texts[0] = "What?!";
+		
+		System.out.println(texts[0]);
 	}
 
 }
