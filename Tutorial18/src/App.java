@@ -6,15 +6,14 @@ class Machine {
 	private int code;
 	
 	public Machine() {
+		this("Bertie", 0);
 		System.out.println("Constructor running!");
 		
-		name = "Berite";
 	}
 	
 	public Machine(String name) {
-		System.out.println("2nd Constructor running!");
-		
-		this.name = name;
+		this(name, 0);
+		System.out.println("2nd Constructor running!");		
 	}
 	
 	public Machine(String name, int code) {
