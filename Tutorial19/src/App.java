@@ -3,7 +3,7 @@ class Thing {
 	public static String description;
 	
 	public void showName() {
-		System.out.println(name);
+		System.out.println(description + ": " + name);
 	}
 	
 	public static void showInfo() {
