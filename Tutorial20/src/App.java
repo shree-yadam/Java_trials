@@ -25,6 +25,11 @@ public class App {
 		.append("I am a skydiver.");
 		
 		System.out.println(s.toString());
+		
+		/////// Formatting //////////////////////
+		
+		System.out.print("Here is some text.\tThat was a tab.\nThat was a new line");
+		System.out.println("More text.");
 	}
 
 }
