@@ -22,6 +22,8 @@ public class App {
 		
 		machine = car1;
 		machine.start();
+		
+		car1.showInfo();
 	}
 
 }
