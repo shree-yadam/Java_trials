@@ -14,7 +14,14 @@ public class App {
 		
 		info1 = person1;
 		info1.showInfo();
+		
+		outputInfo(mach1);
+		outputInfo(person1);
+		outputInfo(info1);
 	}
 
+	private static void outputInfo(Info info) {
+		info.showInfo();
+	}
 }
  
